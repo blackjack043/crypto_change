@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active {
+	outline: none;
+}
+a:focus, a:active {
+	outline: none;
+}
+nav, footer, header, aside {
+	display: block;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input, button, textarea, select {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a, a:visited {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+.cl1 {
+	background: #72dadf;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.cl1 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.cl2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cl3 {
+	width: 1000px;
+}
+.cl4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.cl4 input {
+	width: 100px;
+	margin: 0 10px;
+	border-bottom: 1px solid #333;
+	font-size: 18px;
+}
+.cl5 {
+	display: flex;
+	cursor: pointer; 
+}
+.cl5 div {
+	display: flex;
+	align-items: center;
+}
+.cl5 img {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.cl6 {
+	margin-left: 5px;
+}
+.cl7 {
+	display: flex;
+	justify-content: center;
+}
+.cl8 {
+	display: flex;
+	width: 250px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid #333;
+	margin-right: 20px;
+}
+.cl8 div {
+	margin-bottom: 20px;
+}
+.cl8 div:nth-child(1) {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.cl8 div:nth-child(2) {
+	font-size: 16px;
+	color: #333;
+}
+.cl8 div:nth-child(3) {
+	font-size: 16px;
+	color: #333;
+}
+.cl8 img {
+	width: 25px;
+	margin-right: 5px;
+}
+.button {
+	width: 100px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: rgba(16,89,255, 1);
+	color: #fff;
+}
+.button:hover { 
+	opacity: .7;
+}
+.cl9 {
+	display: none;
+	flex-direction: column;
+	background-color: #fff;
+	color: #333;
+	position: absolute;
+	width: 200px;
+	top: 24px;
+	right: 292px;
+	border: 1px solid #333;
+}
+.cl10 {
+	display: flex;
+	padding: 10px 0 10px 15px;
+	align-items: center;
+	cursor: pointer;
+}
+.cl10:hover { 
+	opacity: .7;
+	background-color: #464d7054;
+}
+.cl10 img {
+	width: 25px;
+	margin-right: 5px;
+}
+.error {
+	display: flex;
+	margin-bottom: 10px;
+	padding: 15px;
+	color: #333;
+	border: 1px solid red;
+	background: #f59696;
+}

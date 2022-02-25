@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active {
+	outline: none;
+}
+a:focus, a:active {
+	outline: none;
+}
+nav, footer, header, aside {
+	display: block;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input, button, textarea, select {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a, a:visited {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+img{
+	width: 16px;
+	vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+.cl1 {
+	background: #72dadf;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.cl1 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.cl2 {
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid #333;
+	padding: 20px; 
+}
+.cl2 div {
+	padding: 10px 0;
+}
+input {
+	border: 1px solid #333;
+	width: 250px;
+	height: 35px;
+	font-size: 14px;
+	padding: 5px 10px; 
+}
+button {
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #333;
+	color: #fff;
+}
+button:hover { 
+	opacity: .7;
+}
+.error {
+	display: flex;
+	margin-bottom: 10px;
+	padding: 15px;
+	color: #333;
+	border: 1px solid red;
+	background: #f59696;
+}
+.cl3 {
+	border: 1px solid #333;
+	width: 250px;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+.copys {
+	padding: 3px 5px;
+	background: #afb7df;
+	margin-left: 5px;
+}
